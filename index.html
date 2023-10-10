@@ -9,25 +9,21 @@
     <script src="src/components/TituloDinamico.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        
-        <div class="card">
-            <div class="card__left">
-                <span>Luis Felipe</span>
-                <a href="#">Darth Vader Contrata Devs</a>
-                <p>Darth Vader procura desenvolvedores
-                    que sabem trabalhar com 
-                    componentes.
-                </p>
-                
-            </div>
-            <img src="assets/vader.jpg" alt="O vilão Darth Vader tomando café">
-            <div class="card__right">
+    <card-news 
+        autor="Luis Mello"
+        title="Darth Vader Contrata."
+        contet="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        link-url="www.google.com"
+        photo="assets/vader.jpg"
+    ></card-news>
 
-            </div>
-        </div>
-    </div>
-    <card-news autor="Luis"></card-news>
+    <card-news 
+        title="Yoda convence a Republica a usar components."
+        contet="Yoda choca Republica ao fazer pronunciamento."
+        link-url="www.google.com/yoda"
+
+    ></card-news>
+
 
 </body>
 </html>
